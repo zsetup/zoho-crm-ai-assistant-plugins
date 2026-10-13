@@ -1,0 +1,19 @@
+{
+  "name": "zsetup",
+  "owner": {
+    "name": "zsetup",
+    "email": "support@zsetup.com",
+    "url": "https://zsetup.com"
+  },
+  "metadata": {
+    "description": "Zoho CRM Assistant plugins",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "zoho-crm",
+      "source": "./zoho-crm",
+      "version": "0.1.0"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "zsetup",
+  "interface": {
+    "displayName": "zsetup"
+  },
+  "plugins": [
+    {
+      "name": "zoho-crm",
+      "source": {
+        "source": "local",
+        "path": "./zoho-crm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "displayName": "Zoho CRM Assistant",
+  "slug": "zoho-crm",
+  "marketplace": "zsetup",
+  "version": "0.1.0",
+  "shortDescription": "Search and manage Zoho CRM",
+  "longDescription": "Work with your Zoho CRM from your own AI client. Find records, summarize activity, manage tasks, and make targeted record or configuration changes using curated tools. Connect your assistant account and Zoho account, then choose which tools your AI clients may use. Your client's permissions control when it asks before a tool call; the server enforces your enabled tools and CRM safety checks. Record deletes go to Zoho's 60-day recycle bin and can be restored within that window. Configuration deletes are permanent and have no verified restore. CRM content is treated as data, never instructions.",
+  "homepage": "https://assistant.zsetup.com/ai-clients",
+  "supportURL": "https://assistant.zsetup.com/#contact",
+  "privacyPolicyURL": "https://assistant.zsetup.com/privacy",
+  "termsOfServiceURL": "https://assistant.zsetup.com/terms",
+  "mcpURL": "https://mcp.assistant.zsetup.com/mcp",
+  "repository": "https://github.com/zsetup/zoho-crm-ai-assistant-plugins",
+  "developerName": "zsetup",
+  "author": {
+    "name": "zsetup",
+    "email": "support@zsetup.com",
+    "url": "https://zsetup.com"
+  },
+  "category": "Productivity",
+  "capabilities": ["Search CRM records", "Manage CRM records", "Configure CRM"],
+  "starterPrompts": [
+    "Find my overdue tasks in Zoho CRM.",
+    "Summarize my open deals by stage.",
+    "Find the lead named Jane Doe and open its details."
+  ],
+  "skillDescription": "Use Zoho CRM tools to find and read records, summarize pipeline and activity, manage tasks, and make requested record or configuration changes. Use exact ids, verify fields before writes, and read back uncertain outcomes before considering further work."
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.zsetup/zoho-crm",
+  "title": "Zoho CRM Assistant",
+  "description": "Search and manage Zoho CRM",
+  "version": "0.1.0",
+  "websiteUrl": "https://assistant.zsetup.com/ai-clients",
+  "repository": {
+    "url": "https://github.com/zsetup/zoho-crm-ai-assistant-plugins",
+    "source": "github",
+    "subfolder": "zoho-crm"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.assistant.zsetup.com/mcp"
+    }
+  ]
+}

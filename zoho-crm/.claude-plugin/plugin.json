@@ -1,0 +1,14 @@
+{
+  "name": "zoho-crm",
+  "version": "0.1.0",
+  "description": "Search and manage Zoho CRM",
+  "author": {
+    "name": "zsetup",
+    "email": "support@zsetup.com",
+    "url": "https://zsetup.com"
+  },
+  "homepage": "https://assistant.zsetup.com/ai-clients",
+  "repository": "https://github.com/zsetup/zoho-crm-ai-assistant-plugins",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}
