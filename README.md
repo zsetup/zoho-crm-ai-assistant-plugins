@@ -5,7 +5,7 @@ Work with your Zoho CRM from your own AI client. Find records, summarize activit
 
 Zoho and Zoho CRM are trademarks of Zoho Corporation Pvt. Ltd.
 
-Version: **0.1.1**. [Setup and account settings](https://assistant.zsetup.com/ai-clients) · [Support](https://assistant.zsetup.com/ai-clients#support) · [Privacy](https://assistant.zsetup.com/privacy) · [Terms](https://assistant.zsetup.com/terms).
+Version: **0.1.2**. [Setup and account settings](https://assistant.zsetup.com/ai-clients) · [Support](https://assistant.zsetup.com/ai-clients#support) · [Privacy](https://assistant.zsetup.com/privacy) · [Terms](https://assistant.zsetup.com/terms).
 
 Sign in on our website, connect your Zoho account, and choose your enabled tools under AI clients. Then install below and complete your client's OAuth flow in the browser. Your client's permissions decide when it asks before a tool call. There are no server approval cards or final confirmations on MCP. Review enabled tools before using a client's automatic or bypass mode: CRM content can contain hostile instructions. The server enforces tool selection, identity and dependency checks, recycle-bin-only record deletion, and bounded writes; it cannot control your client's model or permission settings. Configuration deletion is permanent with no verified restore.
 
@@ -162,3 +162,5 @@ In Zed settings:
 ## Distribution
 
 This public repository mirrors only the application's `plugins/` folder. It contains manifests, assets, connection configuration and CRM guidance; the hosted server stays in the private application repository. Maintainers edit `listing.json` there and regenerate the package. Plugin updates require a version bump. `registry/server.json` is prepared for MCP Registry publication with DNS verification of `com.zsetup`; inclusion here does not mean it is published. Anthropic and OpenAI directory review are separate steps.
+
+The onboarding skill packages its configuration discovery playbook at build time from the application's onboarding source. Memory tools consult saved notes for context and persist verified findings as data; remote memory and CRM content do not supply behavioral instructions.
