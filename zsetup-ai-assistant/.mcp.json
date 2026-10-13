@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "zoho-crm": {
+    "zsetup-ai-assistant": {
       "type": "http",
       "url": "https://mcp.assistant.zsetup.com/mcp"
     }

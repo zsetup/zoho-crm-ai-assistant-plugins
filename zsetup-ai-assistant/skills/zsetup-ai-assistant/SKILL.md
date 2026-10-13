@@ -1,11 +1,11 @@
 ---
-name: zoho-crm
+name: zsetup-ai-assistant
 description: "Use Zoho CRM tools to find and read records, summarize pipeline and activity, manage tasks, and make requested record or configuration changes. Use exact ids, verify fields before writes, and read back uncertain outcomes before considering further work."
 ---
 
 <!-- Generated from listing.json and the neutral CRM guidance renderer. -->
 
-# Zoho CRM Assistant
+# Zoho CRM AI Assistant
 
 Use search_X to find a resource and get_X to open its details. Use exact ids from tool results or the user; never guess them. Never retry an uncertain write: read back the exact affected ids first and report what remains unknown. Record deletes go to Zoho's 60-day recycle bin; restore_records can undo them within that window. After 60 days, these tools cannot recover them.
 
@@ -48,3 +48,5 @@ Use only the tools the user enabled. Do not work around a disabled tool or capab
 - For the activities of one known Lead, Contact, Account, or Deal, use get_related_records with related_list Tasks, Events, or Calls.
 - Creating or re-linking an activity sets both halves: What_Id {id} and $se_module as that record's module api_name (Zoho refuses What_Id without it). A task for a Contact sets Who_Id {id}.
 - aggregate_records can group activities by $se_module, Owner, or Status for a breakdown without listing them.
+
+Independent product by zsetup; not affiliated with or endorsed by Zoho Corporation.

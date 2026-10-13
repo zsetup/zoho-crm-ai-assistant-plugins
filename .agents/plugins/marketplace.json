@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "zoho-crm",
+      "name": "zsetup-ai-assistant",
       "source": {
         "source": "local",
-        "path": "./zoho-crm"
+        "path": "./zsetup-ai-assistant"
       },
       "policy": {
         "installation": "AVAILABLE",

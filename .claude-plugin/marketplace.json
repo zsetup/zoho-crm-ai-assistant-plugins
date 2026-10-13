@@ -6,14 +6,14 @@
     "url": "https://zsetup.com"
   },
   "metadata": {
-    "description": "Zoho CRM Assistant plugins",
-    "version": "0.1.0"
+    "description": "Zoho CRM AI Assistant plugins",
+    "version": "0.1.1"
   },
   "plugins": [
     {
-      "name": "zoho-crm",
-      "source": "./zoho-crm",
-      "version": "0.1.0"
+      "name": "zsetup-ai-assistant",
+      "source": "./zsetup-ai-assistant",
+      "version": "0.1.1"
     }
   ]
 }
