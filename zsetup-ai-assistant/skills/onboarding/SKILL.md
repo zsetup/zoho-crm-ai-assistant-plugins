@@ -45,6 +45,8 @@ trustworthy working map of how this org's CRM is built and how its core processe
    place with `edit_memory` or a `write_memory` carrying its revision, keep content people added,
    and update its `Last verified:` line. If something no longer exists live, mark it
    (`Status: deprecated` or "Removed as of YYYY-MM-DD") instead of deleting the file.
+   If you create an archival snapshot or backup, preserve its original link destinations with
+   absolute `/org` or `/user` paths, or put verbatim historical text in a fenced code block.
 9. Use the work-file skeleton and output paths packaged below. Keep factual notes in their owning file, with a title, Last verified date, evidence and profile coverage; omit unsupported or empty sections.
 
 ## Start or resume
@@ -148,7 +150,7 @@ Step notes:
 4. **Check for customer data.** Re-read the files you wrote; remove any record name, customer or
    company name, contact detail, amount, or record count.
 5. **Claim audit before completion.** For every factual clause in every file (including README, glossary, work notes, questions and template fields), identify the exact tool result/property or user statement that proves it. Delete unsupported conclusions or label them `(inferred, unverified)` in the same clause. A `custom_field` value does not prove module customization or default picklist values. `repeat: false` is only the returned setting, not proof of later-edit behavior. Remove links to folders; use a concrete existing Markdown file.
-6. **Self-review before completion.** Re-read every produced file against the Coverage table and tool results. Remove or qualify unsupported runtime and exclusivity claims, resolve contradictory statements, and check every knowledge link against the existing file tree. Fix dangling links by creating a supported target or removing the link. Only then proceed to the exit check.
+6. **Self-review before completion.** Re-read every produced file against the Coverage table and tool results. Remove or qualify unsupported runtime and exclusivity claims, resolve contradictory statements, and check every knowledge link against the existing file tree, including links in every created snapshot, backup and claim ledger. Never silently exclude archival files from the final link check. Fix dangling links by creating a supported target or removing the link. Only then proceed to the exit check.
 7. **Exit check.** Set `` Status: `done` `` only when all of these hold:
    - steps 1–7 are ticked, each either completed or recorded under Coverage as not visible;
    - `/org/README.md`, `team.md`, `architecture/tenant.md`, and `architecture/glossary.md` exist
