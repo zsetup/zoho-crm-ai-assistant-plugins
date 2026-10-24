@@ -7,13 +7,13 @@
   },
   "metadata": {
     "description": "Zoho CRM AI Assistant plugins",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   "plugins": [
     {
       "name": "zsetup-ai-assistant",
       "source": "./zsetup-ai-assistant",
-      "version": "0.1.4"
+      "version": "0.1.5"
     }
   ]
 }
