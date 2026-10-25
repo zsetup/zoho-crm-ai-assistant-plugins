@@ -3,7 +3,7 @@
   "name": "com.zsetup/ai-assistant",
   "title": "Zoho CRM AI Assistant",
   "description": "Zoho CRM tools. Independent product by zsetup; not affiliated with or endorsed by Zoho Corporation.",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "websiteUrl": "https://assistant.zsetup.com/ai-clients",
   "repository": {
     "url": "https://github.com/zsetup/zoho-crm-ai-assistant-plugins",
