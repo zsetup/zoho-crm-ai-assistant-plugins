@@ -3,8 +3,8 @@
   "name": "com.zsetup/ai-assistant",
   "title": "Zoho CRM AI Assistant",
   "description": "Zoho CRM tools. Independent product by zsetup; not affiliated with or endorsed by Zoho Corporation.",
-  "version": "0.1.8",
-  "websiteUrl": "https://assistant.zsetup.com/ai-clients",
+  "version": "0.1.9",
+  "websiteUrl": "https://askincrm.com/ai-clients",
   "repository": {
     "url": "https://github.com/zsetup/zoho-crm-ai-assistant-plugins",
     "source": "github",
@@ -13,7 +13,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.assistant.zsetup.com/mcp"
+      "url": "https://mcp.askincrm.com/mcp"
     }
   ]
 }

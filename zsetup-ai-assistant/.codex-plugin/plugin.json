@@ -1,13 +1,13 @@
 {
   "name": "zsetup-ai-assistant",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Search and manage Zoho CRM",
   "author": {
     "name": "zsetup",
     "email": "support@zsetup.com",
     "url": "https://zsetup.com"
   },
-  "homepage": "https://assistant.zsetup.com/ai-clients",
+  "homepage": "https://askincrm.com/ai-clients",
   "repository": "https://github.com/zsetup/zoho-crm-ai-assistant-plugins",
   "license": "MIT",
   "skills": "./skills/",
@@ -23,10 +23,10 @@
       "Manage CRM records",
       "Configure CRM"
     ],
-    "websiteURL": "https://assistant.zsetup.com/ai-clients",
-    "supportURL": "https://assistant.zsetup.com/ai-clients#support",
-    "privacyPolicyURL": "https://assistant.zsetup.com/privacy",
-    "termsOfServiceURL": "https://assistant.zsetup.com/terms",
+    "websiteURL": "https://askincrm.com/ai-clients",
+    "supportURL": "https://askincrm.com/ai-clients#support",
+    "privacyPolicyURL": "https://askincrm.com/privacy",
+    "termsOfServiceURL": "https://askincrm.com/terms",
     "defaultPrompt": [
       "Find my overdue tasks in Zoho CRM.",
       "Summarize my open deals by stage.",

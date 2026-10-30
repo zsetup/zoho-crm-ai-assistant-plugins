@@ -2,7 +2,7 @@
   "mcpServers": {
     "zsetup-ai-assistant": {
       "type": "http",
-      "url": "https://mcp.assistant.zsetup.com/mcp"
+      "url": "https://mcp.askincrm.com/mcp"
     }
   }
 }

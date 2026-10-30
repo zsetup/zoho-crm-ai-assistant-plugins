@@ -1,20 +1,20 @@
 {
   "name": "zsetup-ai-assistant",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Search and manage Zoho CRM",
   "author": {
     "name": "zsetup",
     "email": "support@zsetup.com",
     "url": "https://zsetup.com"
   },
-  "homepage": "https://assistant.zsetup.com/ai-clients",
+  "homepage": "https://askincrm.com/ai-clients",
   "repository": "https://github.com/zsetup/zoho-crm-ai-assistant-plugins",
   "license": "MIT",
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "displayName": "Zoho CRM AI Assistant",
-  "documentationUrl": "https://assistant.zsetup.com/ai-clients",
-  "supportUrl": "https://assistant.zsetup.com/ai-clients#support",
-  "privacyPolicyUrl": "https://assistant.zsetup.com/privacy",
-  "termsOfServiceUrl": "https://assistant.zsetup.com/terms"
+  "documentationUrl": "https://askincrm.com/ai-clients",
+  "supportUrl": "https://askincrm.com/ai-clients#support",
+  "privacyPolicyUrl": "https://askincrm.com/privacy",
+  "termsOfServiceUrl": "https://askincrm.com/terms"
 }

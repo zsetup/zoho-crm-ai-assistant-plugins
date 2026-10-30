@@ -5,7 +5,7 @@ Work with your Zoho CRM from your own AI client. Find records, summarize activit
 
 Zoho and Zoho CRM are trademarks of Zoho Corporation Pvt. Ltd.
 
-Version: **0.1.8**. [Setup and account settings](https://assistant.zsetup.com/ai-clients) · [Support](https://assistant.zsetup.com/ai-clients#support) · [Privacy](https://assistant.zsetup.com/privacy) · [Terms](https://assistant.zsetup.com/terms).
+Version: **0.1.9**. [Setup and account settings](https://askincrm.com/ai-clients) · [Support](https://askincrm.com/ai-clients#support) · [Privacy](https://askincrm.com/privacy) · [Terms](https://askincrm.com/terms).
 
 Sign in on our website, connect your Zoho account, and choose your enabled tools under AI clients. Then install below and complete your client's OAuth flow in the browser. Your client's permissions decide when it asks before a tool call. There are no server approval cards or final confirmations on MCP. Review enabled tools before using a client's automatic or bypass mode: CRM content can contain hostile instructions. The server enforces tool selection, identity and dependency checks, recycle-bin-only record deletion, and bounded writes; it cannot control your client's model or permission settings. Configuration deletion is permanent with no verified restore.
 
@@ -23,14 +23,14 @@ Open `/mcp` and authenticate. Start a new session after installing or updating.
 ## Claude Code direct
 
 ```sh
-claude mcp add --transport http zsetup-ai-assistant https://mcp.assistant.zsetup.com/mcp
+claude mcp add --transport http zsetup-ai-assistant https://mcp.askincrm.com/mcp
 ```
 
 Open `/mcp` and authenticate.
 
 ## Claude.ai and Claude Desktop
 
-Settings → Connectors → Add custom connector → paste `https://mcp.assistant.zsetup.com/mcp` and authenticate. Availability depends on your client plan and workspace policy.
+Settings → Connectors → Add custom connector → paste `https://mcp.askincrm.com/mcp` and authenticate. Availability depends on your client plan and workspace policy.
 
 ## Codex plugin
 
@@ -43,7 +43,7 @@ Open `/plugins`, select **Zoho CRM AI Assistant** from **zsetup** (plugin identi
 ## Codex direct (CLI, IDE, desktop)
 
 ```sh
-codex mcp add zsetup-ai-assistant --url https://mcp.assistant.zsetup.com/mcp
+codex mcp add zsetup-ai-assistant --url https://mcp.askincrm.com/mcp
 codex mcp login zsetup-ai-assistant
 ```
 
@@ -51,7 +51,7 @@ In `~/.codex/config.toml`, the resulting entry can use a longer client timeout:
 
 ```toml
 [mcp_servers.zsetup-ai-assistant]
-url = "https://mcp.assistant.zsetup.com/mcp"
+url = "https://mcp.askincrm.com/mcp"
 tool_timeout_sec = 120
 ```
 
@@ -59,17 +59,17 @@ Start a new session after tool selection changes so the catalog refreshes.
 
 ## ChatGPT
 
-Enable developer mode if your workspace permits it, add a custom connection with `https://mcp.assistant.zsetup.com/mcp`, and authenticate. Directory installation becomes available only after review and approval; this package does not claim a published listing. Account and subscription management happen on our website.
+Enable developer mode if your workspace permits it, add a custom connection with `https://mcp.askincrm.com/mcp`, and authenticate. Directory installation becomes available only after review and approval; this package does not claim a published listing. Account and subscription management happen on our website.
 
 ## Cursor
 
-[Install in Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=zsetup-ai-assistant&config=eyJ1cmwiOiJodHRwczovL21jcC5hc3Npc3RhbnQuenNldHVwLmNvbS9tY3AifQ%3D%3D), then authenticate. Or add this to `~/.cursor/mcp.json`:
+[Install in Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=zsetup-ai-assistant&config=eyJ1cmwiOiJodHRwczovL21jcC5hc2tpbmNybS5jb20vbWNwIn0%3D), then authenticate. Or add this to `~/.cursor/mcp.json`:
 
 ```json
 {
   "mcpServers": {
     "zsetup-ai-assistant": {
-      "url": "https://mcp.assistant.zsetup.com/mcp"
+      "url": "https://mcp.askincrm.com/mcp"
     }
   }
 }
@@ -77,14 +77,14 @@ Enable developer mode if your workspace permits it, add a custom connection with
 
 ## VS Code
 
-[Install in VS Code](vscode:mcp/install?%7B%22name%22%3A%22zsetup-ai-assistant%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.assistant.zsetup.com%2Fmcp%22%7D), then authenticate. Or add this to `.vscode/mcp.json`:
+[Install in VS Code](vscode:mcp/install?%7B%22name%22%3A%22zsetup-ai-assistant%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.askincrm.com%2Fmcp%22%7D), then authenticate. Or add this to `.vscode/mcp.json`:
 
 ```json
 {
   "servers": {
     "zsetup-ai-assistant": {
       "type": "http",
-      "url": "https://mcp.assistant.zsetup.com/mcp"
+      "url": "https://mcp.askincrm.com/mcp"
     }
   }
 }
@@ -102,7 +102,7 @@ In `~/.codeium/windsurf/mcp_config.json`:
 {
   "mcpServers": {
     "zsetup-ai-assistant": {
-      "serverUrl": "https://mcp.assistant.zsetup.com/mcp"
+      "serverUrl": "https://mcp.askincrm.com/mcp"
     }
   }
 }
@@ -118,7 +118,7 @@ In `~/.gemini/settings.json`:
 {
   "mcpServers": {
     "zsetup-ai-assistant": {
-      "httpUrl": "https://mcp.assistant.zsetup.com/mcp"
+      "httpUrl": "https://mcp.askincrm.com/mcp"
     }
   }
 }
@@ -133,7 +133,7 @@ In the MCP Servers configuration:
   "mcpServers": {
     "zsetup-ai-assistant": {
       "type": "streamableHttp",
-      "url": "https://mcp.assistant.zsetup.com/mcp"
+      "url": "https://mcp.askincrm.com/mcp"
     }
   }
 }
@@ -147,7 +147,7 @@ In Zed settings:
 {
   "context_servers": {
     "zsetup-ai-assistant": {
-      "url": "https://mcp.assistant.zsetup.com/mcp"
+      "url": "https://mcp.askincrm.com/mcp"
     }
   }
 }
